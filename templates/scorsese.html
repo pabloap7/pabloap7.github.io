@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/style.css') }}">
+    <script src="{{ url_for('static', path='js/javascript.js') }}"></script>
+    <title>Filmografía de Martin Scorsese</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Filmografía de Martin Scorsese</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="http://127.0.0.1:8000">Página principal</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre Martin Scorsese</a></li>
+                <li><a href="#filmografia">Filmografía</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div id="inicio" class="container">
+            <section>
+                <h2>Bienvenido</h2>
+                <p>¡Bienvenido a la página dedicada a la filmografía de Martin Scorsese! Aquí encontrarás información detallada sobre sus películas más destacadas.</p>
+            </section>
+        </div>
+        <div id="sobre" class="container">
+            <section>
+                <h2>Sobre Martin Scorsese</h2>
+                <p>Martin Scorsese es un director, productor y guionista estadounidense, nacido en 1942 en Nueva York. Sus películas exploran temas como la redención, la culpa y la identidad, a menudo ambientados en un contexto urbano y de crimen organizado.</p>
+            </section>
+        </div>
+        <div id="filmografia" class="container">
+            <section>
+                <h2>Filmografía</h2>
+                <ul class="filmografia-lista">
+                    <li>
+                        <img src="{{ url_for('static', path='img/GOODFELLAS.jpg') }}" alt="Goodfellas">
+                        <div class="film-info">
+                            <h3>Goodfellas (1990)</h3>
+                            <p>La ascensión y caída de Henry Hill y su vida en el mundo del crimen organizado, donde la lealtad y la traición se entrelazan en un relato inolvidable.</p>
+                            <p><strong>Reparto:</strong> Ray Liotta, Robert De Niro, Joe Pesci</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="{{ url_for('static', path='img/TAXI DRIVER.jpg') }}" alt="Taxi Driver">
+                        <div class="film-info">
+                            <h3>Taxi Driver (1976)</h3>
+                            <p>Travis Bickle, un taxista solitario, lucha contra su aislamiento en la sombría ciudad de Nueva York, donde sus conflictos internos lo llevan al borde del abismo.</p>
+                            <p><strong>Reparto:</strong> Robert De Niro, Jodie Foster, Cybill Shepherd</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="{{ url_for('static', path='img/THE IRISHMAN.jpg') }}" alt="The Irishman">
+                        <div class="film-info">
+                            <h3>The Irishman (2019)</h3>
+                            <p>La historia épica de Frank Sheeran, un asesino a sueldo, y su conexión con el sindicato de camioneros y el notorio Jimmy Hoffa.</p>
+                            <p><strong>Reparto:</strong> Robert De Niro, Al Pacino, Joe Pesci</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="{{ url_for('static', path='img/THE DEPARTED.jpg') }}" alt="The Departed">
+                        <div class="film-info">
+                            <h3>The Departed (2006)</h3>
+                            <p>Un thriller de crimen y corrupción en el que un policía encubierto y un criminal infiltrado se enfrentan en una batalla de identidades y lealtades.</p>
+                            <p><strong>Reparto:</strong> Leonardo DiCaprio, Matt Damon, Jack Nicholson</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="{{ url_for('static', path='img/SHUTTER ISLAND.jpg') }}" alt="Shutter Island">
+                        <div class="film-info">
+                            <h3>Shutter Island (2010)</h3>
+                            <p>Un thriller psicológico en el que un detective investiga la desaparición de una paciente en un hospital psiquiátrico, solo para verse atrapado en una red de engaños y delirios.</p>
+                            <p><strong>Reparto:</strong> Leonardo DiCaprio, Mark Ruffalo, Ben Kingsley</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div id="autor" class="container">
+            <button onclick="mostrarAutor()">Mostrar Autor</button>
+        </div>
+        
+        <div id="contacto" class="container">
+            <section>
+                <h2>Contacto</h2>
+                <p>Puedes contactarnos para más información o comentarios sobre esta página:</p>
+                <form action="#" method="POST">
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="copy">
+            <p>
+                2025 Filmografía de Marin Scorsese
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

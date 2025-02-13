@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/style_index.css') }}">
+    <title>Página Principal - Grandes Directores</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Los mejores directores de la historia del cine</h1>
+            <p>Explora la obra de algunos de los más influyentes cineastas de la historia.</p>
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container">
+            <section class="presentation">
+                <h2>Descubre sus obras</h2>
+                <p>Haz clic en un director para explorar su filmografía y legado cinematográfico.</p>
+            </section>
+
+            <section class="directors">
+                <div class="director-card">
+                    <img src="{{ url_for('static', path='img/david fincher.jpg') }}" alt="David Fincher">
+                    <h3>David Fincher</h3>
+                    <p>Conocido por su estilo visual oscuro y narrativas intensas, Fincher ha dirigido películas como <em>Seven</em> y <em>La Red Social</em>.</p>
+                    <a href="http://127.0.0.1:8000/fincher" class="btn">Ver más</a>
+                </div>
+
+                <div class="director-card">
+                    <img src="{{ url_for('static', path='img/martin scorsese.jpg') }}" alt="Martin Scorsese">
+                    <h3>Martin Scorsese</h3>
+                    <p>Un maestro del cine que ha explorado historias humanas profundas en películas como <em>Taxi Driver</em> y <em>El irlandés</em>.</p>
+                    <a href="http://127.0.0.1:8000/scorsese" class="btn">Ver más</a>
+                </div>
+
+                <div class="director-card">
+                    <img src="{{ url_for('static', path='img/quentin tarantino.jpg') }}" alt="Quentin Tarantino">
+                    <h3>Quentin Tarantino</h3>
+                    <p>Con un estilo inconfundible, Tarantino ha revolucionado el cine con obras como <em>Pulp Fiction</em> y <em>Kill Bill</em>.</p>
+                    <a href="http://127.0.0.1:8000/tarantino" class="btn">Ver más</a>
+                </div>
+
+                <div class="director-card">
+                    <img src="{{ url_for('static', path='img/denis villeneuve.jpg') }}" alt="Denis Villeneuve">
+                    <h3>Denis Villeneuve</h3>
+                    <p>Conocido por sus impresionantes narrativas visuales, Villeneuve ha dirigido películas como <em>Arrival</em> y <em>Dune</em>.</p>
+                    <a href="http://127.0.0.1:8000/villeneuve" class="btn">Ver más</a>
+                </div>
+
+                <div class="director-card">
+                    <img src="{{ url_for('static', path='img/steven spielberg.jpg') }}" alt="Steven Spielberg">
+                    <h3>Steven Spielberg</h3>
+                    <p>Considerado uno de los más grandes cineastas, Spielberg ha dirigido películas icónicas como <em>La lista de Schindler</em> y <em>Jurassic Park</em>.</p>
+                    <a href="http://127.0.0.1:8000/spielberg" class="btn">Ver más</a>
+                </div>
+                
+                <div class="director-card">
+                    <img src="{{ url_for('static', path='img/francis ford coppola.jpg   ') }}" alt="Francis Ford Coppola">
+                    <h3>Francis Ford Coppola</h3>
+                    <p>Conocido por su obra maestra <em>El Padrino</em>, Coppola ha dejado una huella indeleble en la historia del cine.</p>
+                    <a href="http://127.0.0.1:8000/coppola" class="btn">Ver más</a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Grandes Directores del Cine</p>
+        </div>
+    </footer>
+</body>
+</html>

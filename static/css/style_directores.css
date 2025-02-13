@@ -1,0 +1,28 @@
+body {
+    background-color: orange;
+    font-family: Arial, sans-serif;
+}
+table {
+    width: 30%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: black;
+    color: white;
+}
+.title {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 10px;
+}
+form {
+    display: inline;
+}

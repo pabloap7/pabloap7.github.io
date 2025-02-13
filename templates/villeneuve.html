@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/style.css') }}">
+    <script src="{{ url_for('static', path='js/javascript.js') }}"></script>
+    <title>Filmografía de Denis Villeneuve</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Filmografía de Denis Villeneuve</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="http://127.0.0.1:8000">Página principal</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre Denis Villeneuve</a></li>
+                <li><a href="#filmografia">Filmografía</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div id="inicio" class="container">
+            <section>
+                <h2>Bienvenido</h2>
+                <p>¡Bienvenido a la página dedicada a la filmografía de Denis Villeneuve! Aquí encontrarás información detallada sobre sus películas más destacadas.</p>
+            </section>
+        </div>
+        <div id="sobre" class="container">
+            <section>
+                <h2>Sobre Denis Villeneuve</h2>
+                <p>Denis Villeneuve es un director, guionista y productor canadiense nacido en 1967. Conocido por su habilidad para crear cine visualmente impresionante y narrativamente complejo, Villeneuve ha dirigido algunas de las películas más destacadas de la última década, como <em>Blade Runner 2049</em> y <em>Dune</em>.</p>
+            </section>
+        </div>
+        <div id="filmografia" class="container">
+            <section>
+                <h2>Filmografía</h2>
+                <ul class="filmografia-lista">
+                    <li>
+                        <img src="{{ url_for('static', path='img/ARRIVAL.jpg') }}" alt="Arrival">
+                        <div class="film-info">
+                            <h3>Arrival (2016)</h3>
+                            <p>Una lingüista es reclutada para ayudar a comunicarse con extraterrestres que han llegado a la Tierra.</p>
+                            <p><strong>Reparto:</strong> Amy Adams, Jeremy Renner, Forest Whitaker</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="{{ url_for('static', path='img/BLADE RUNNER 2049.jpg') }}" alt="Blade Runner 2049">
+                        <div class="film-info">
+                            <h3>Blade Runner 2049 (2017)</h3>
+                            <p>Un joven blade runner descubre un secreto que podría sumergir al mundo en el caos, y busca al antiguo blade runner perdido, Rick Deckard.</p>
+                            <p><strong>Reparto:</strong> Ryan Gosling, Harrison Ford, Jared Leto</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="{{ url_for('static', path='img/DUNE.jpg') }}" alt="Dune">
+                        <div class="film-info">
+                            <h3>Dune (2021)</h3>
+                            <p>Un joven noble debe proteger a su familia y a su planeta en medio de una lucha por el control de la especia más valiosa del universo.</p>
+                            <p><strong>Reparto:</strong> Timothée Chalamet, Zendaya, Oscar Isaac</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="{{ url_for('static', path='img/SICARIO.jpg') }}" alt="Sicario">
+                        <div class="film-info">
+                            <h3>Sicario (2015)</h3>
+                            <p>Una agente del FBI se une a una operación secreta en la frontera entre Estados Unidos y México para enfrentar el narcotráfico.</p>
+                            <p><strong>Reparto:</strong> Emily Blunt, Benicio del Toro, Josh Brolin</p>
+                    </div>
+                    </li>
+                    <li>
+                        <img src="{{ url_for('static', path='img/INCENDIES.jpg') }}" alt="Incendies">
+                        <div class="film-info">
+                            <h3>Incendies (2010)</h3>
+                            <p>Tras la muerte de su madre, dos hermanos emprenden un viaje al Medio Oriente para descubrir el pasado de su madre y su misterioso legado.</p>
+                            <p><strong>Reparto:</strong> Lubna Azabal, Mélissa Désormeaux-Poulin, Maxim Gaudette</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div id="autor" class="container">
+            <button onclick="mostrarAutor()">Mostrar Autor</button>
+        </div>
+        
+        <div id="contacto" class="container">
+            <section>
+                <h2>Contacto</h2>
+                <p>Puedes contactarnos para más información o comentarios sobre esta página:</p>
+                <form action="#" method="POST">
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="copy">
+            <p>
+                2025 Filmografía de Denis Villeneuve
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', path='css/style.css') }}">
+    <script src="{{ url_for('static', path='js/javascript.js') }}"></script>
+    <title>Filmografía de Francis Ford Coppola</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Filmografía de Francis Ford Coppola</h1>
+        </div>
+    </header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="http://127.0.0.1:8000">Página principal</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre Francis Ford Coppola</a></li>
+                <li><a href="#filmografia">Filmografía</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <div id="inicio" class="container">
+            <section>
+                <h2>Bienvenido</h2>
+                <p>¡Bienvenido a la página dedicada a la filmografía de Francis Ford Coppola! Aquí encontrarás información detallada sobre sus películas más destacadas.</p>
+            </section>
+        </div>
+        <div id="sobre" class="container">
+            <section>
+                <h2>Sobre Francis Ford Coppola</h2>
+                <p>Francis Ford Coppola es un director, guionista y productor estadounidense, nacido en 1939. Considerado uno de los cineastas más influyentes de la historia del cine, Coppola es especialmente reconocido por su trilogía de <em>El Padrino</em>, así como por su innovador trabajo en <em>Apocalypse Now</em>.</p>
+            </section>
+        </div>
+        <div id="filmografia" class="container">
+            <section>
+                <h2>Filmografía</h2>
+                <ul class="filmografia-lista">
+                    <li>
+                        <img src="{{ url_for('static', path='img/EL PADRINO.jpg') }}" alt="El Padrino">
+                        <div class="film-info">
+                            <h3>El Padrino (1972)</h3>
+                            <p>La historia de la familia Corleone, una de las más poderosas del crimen organizado en Nueva York.</p>
+                            <p><strong>Reparto:</strong> Marlon Brando, Al Pacino, James Caan</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="{{ url_for('static', path='img/EL PADRINO PARTE II.jpeg') }}" alt="El Padrino Parte II">
+                        <div class="film-info">
+                            <h3>El Padrino Parte II (1974)</h3>
+                            <p>La continuación de la saga de los Corleone, con un enfoque en la ascensión de Michael Corleone y los orígenes de su padre Vito Corleone.</p>
+                            <p><strong>Reparto:</strong> Al Pacino, Robert De Niro, Diane Keaton</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="{{ url_for('static', path='img/APOCALYPSE NOW.jpg') }}" alt="Apocalypse Now">
+                        <div class="film-info">
+                            <h3>Apocalypse Now (1979)</h3>
+                            <p>Un capitán es enviado a la jungla de Vietnam para asesinar a un coronel renegado que ha establecido su propio imperio.</p>
+                            <p><strong>Reparto:</strong> Martin Sheen, Marlon Brando, Robert Duvall</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="{{ url_for('static', path='img/THE CONVERSATION.jpg') }}" alt="The Conversation">
+                        <div class="film-info">
+                            <h3>The Conversation (1974)</h3>
+                            <p>Un especialista en vigilancia se ve envuelto en un caso que lo hace cuestionar sus propias acciones.</p>
+                            <p><strong>Reparto:</strong> Gene Hackman, John Cazale, Allen Garfield</p>
+                    </div>
+                    </li>
+                    <li>
+                        <img src="{{ url_for('static', path='img/DRACULA.jpg') }}" alt="Drácula de Bram Stoker">
+                        <div class="film-info">
+                            <h3>Drácula (1992)</h3>
+                            <p>Una adaptación de la famosa novela de Bram Stoker sobre el conde Drácula y su intento de conquistar Londres.</p>
+                            <p><strong>Reparto:</strong> Gary Oldman, Winona Ryder, Keanu Reeves</p>
+                        </div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+        <div id="autor" class="container">
+            <button onclick="mostrarAutor()">Mostrar Autor</button>
+        </div>
+        
+        <div id="contacto" class="container">
+            <section>
+                <h2>Contacto</h2>
+                <p>Puedes contactarnos para más información o comentarios sobre esta página:</p>
+                <form action="#" method="POST">
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="copy">
+            <p>
+                2025 Filmografía de Francis Ford Coppola
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
