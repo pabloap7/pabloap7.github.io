@@ -21,10 +21,10 @@ portraits: '/assets/rm.png'
 
 SNS: true
 SNS-icon: 
-  mail: 'mailto:abc@gmail.com'
+  mail: ''
   weixin: '' 
   qq: ''
-  github: ''
+  github: 'https://github.com/pabloap7'
   Codepen: ''
   weibo: ''
   instagram: ''
@@ -40,7 +40,7 @@ paginate: 2
 paginatepath: ['page:num']
 
 footer:
-  since: 2018
+  since: 2023
 
 markdown: kramdown
 kramdown:
