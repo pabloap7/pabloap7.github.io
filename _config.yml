@@ -11,13 +11,13 @@ nav:
   Amigos: '/friendLink.html'
 
 author: true
-name: 'your awesome name'
-NickName: 'your awesome nickname'
-webtitle: 'your awesome webtitle'
-bio: 'your awesome bio'
+name: 'Pablo Arriola Pérez'
+NickName: 'Pablo'
+webtitle: 'The Last Dance'
+bio: 'Biografía blablabla'
 about: true
-aboutyou: 'your introduction'
-portraits: '/assets/profile.jpeg' 
+aboutyou: 'Esta es la última práctica del curso'
+portraits: '/assets/rm.png' 
 
 SNS: true
 SNS-icon: 
