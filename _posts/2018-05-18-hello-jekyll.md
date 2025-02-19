@@ -1,11 +1,11 @@
 ---
 layout: post
 title: 'Kylian Mbappé'
-date: 2025-02-19 09:01:21
+date: 2023-09-18
 author: Jekyll
 color: rgb(255,210,32)
 cover: '../assets/mbappe.jpg'
-tags: mbappe
+tags: jekyll
 ---
 
 
