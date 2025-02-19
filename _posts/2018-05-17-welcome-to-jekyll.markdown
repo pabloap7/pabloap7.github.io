@@ -2,7 +2,7 @@
 layout: post
 title:  "Jude Bellingham"
 date:   2025-02-18 14:05:21
-tags: bellingham
+tags: Bellingham
 color: rgb(255, 156, 90)
 cover: '../assets/bellingham.jpg'
 subtitle: 'Jude Bellingham'
