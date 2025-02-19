@@ -2,7 +2,7 @@
 layout: post
 title: 'Kylian Mbappé'
 date: 2025-02-19 09:01:21
-author: Pablo
+author: Jekyll
 color: rgb(255,210,32)
 cover: '../assets/mbappe.jpg'
 tags: mbappe
