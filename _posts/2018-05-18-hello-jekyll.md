@@ -4,28 +4,20 @@ title: 'Hello Jekyll'
 date: 2023-09-18
 author: Jekyll
 color: rgb(255,210,32)
-cover: 'http://on2171g4d.bkt.clouddn.com/jekyll-banner.png'
+cover: '../assets/mbappe.jpg'
 tags: jekyll
 ---
 
-> Transform your plain text into static websites and blogs.
 
-# Welcome
+# Kylian 
 
-## Welcome
+Kylian Mbappé es uno de los futbolistas más talentosos y exitosos de la actualidad. Nacido en Francia en 1998, ha demostrado una velocidad, técnica y capacidad goleadora excepcionales, convirtiéndose en una de las figuras más influyentes del fútbol mundial. Desde sus inicios en el AS Mónaco, donde ayudó a ganar la Ligue 1 en 2017, hasta su paso por el Paris Saint-Germain, ha cosechado numerosos títulos y reconocimientos.
 
-### Welcome
+# Mbappé
 
-This site aims to be a comprehensive guide to Jekyll. We’ll cover topics such as getting your site up and running, creating and managing your content, customizing the way your site works and looks, deploying to various environments, and give you some advice on participating in the future development of Jekyll itself.
+Su desempeño con la selección francesa ha sido igualmente destacado. Fue pieza clave en la Copa del Mundo de 2018, donde Francia se coronó campeona y él fue reconocido como el Mejor Jugador Joven del torneo. En 2022, llevó a su selección a la final del Mundial, marcando un hat-trick en la final contra Argentina y obteniendo la Bota de Oro. Su talento se caracteriza por una velocidad explosiva, definición precisa y gran capacidad de desborde, lo que lo ha convertido en un referente en el fútbol mundial.
 
-### So what is Jekyll, exactly?Permalink
+# Lottin
 
-Jekyll is a simple, blog-aware, static site generator. It takes a template directory containing raw text files in various formats, runs it through a converter (like [Markdown](https://daringfireball.net/projects/markdown/)) and our [Liquid](https://github.com/Shopify/liquid/wiki) renderer, and spits out a complete, ready-to-publish static website suitable for serving with your favorite web server. Jekyll also happens to be the engine behind GitHub Pages, which means you can use Jekyll to host your project’s page, blog, or website from GitHub’s servers for free.
+Mbappé también se destaca fuera del campo por su compromiso con causas benéficas y su inspirador legado para los jóvenes futbolistas. Su futuro promete seguir marcando la historia del deporte.
 
-### Helpful HintsPermalink
-
-Throughout this guide there are a number of small-but-handy pieces of information that can make using Jekyll easier, more interesting, and less hazardous. Here’s what to look out for.
-
-### Video Test
-
-<iframe type="text/html" width="100%" height="385" src="http://www.youtube.com/embed/gfmjMWjn-Xg" frameborder="0"></iframe>
