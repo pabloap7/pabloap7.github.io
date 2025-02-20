@@ -1,0 +1,62 @@
+[
+    {
+        "nombre": "Zidane",
+        "nacionalidad": "Francia",
+        "equipo_debut": "Real Madrid",
+        "equipo_actual": "Real Madrid"
+    },
+    {
+        "nombre": "Pep Guardiola",
+        "nacionalidad": "España",
+        "equipo_debut": "Barcelona",
+        "equipo_actual": "Manchester City"
+    },
+    {
+        "nombre": "Jürgen Klopp",
+        "nacionalidad": "Alemania",
+        "equipo_debut": "Mainz 05",
+        "equipo_actual": "N/A"
+    },
+    {
+        "nombre": "Antonio Conte",
+        "nacionalidad": "Italia",
+        "equipo_debut": "Arezzo",
+        "equipo_actual": "Nápoles"
+    },
+    {
+        "nombre": "Diego Simeone",
+        "nacionalidad": "Argentina",
+        "equipo_debut": "Racing Club",
+        "equipo_actual": "Atlético de Madrid"
+    },
+    {
+        "nombre": "Mauricio Pochettino",
+        "nacionalidad": "Argentina",
+        "equipo_debut": "Espanyol",
+        "equipo_actual": "Selección de fútbol de los Estados Unidos"
+    },
+    {
+        "nombre": "Carlo Ancelotti",
+        "nacionalidad": "Italia",
+        "equipo_debut": "Reggiana",
+        "equipo_actual": "Real Madrid"
+    },
+    {
+        "nombre": "Thomas Tuchel",
+        "nacionalidad": "Alemania",
+        "equipo_debut": "Mainz 05",
+        "equipo_actual": "Selección de fútbol de Inglaterra"
+    },
+    {
+        "nombre": "Julian Nagelsmann",
+        "nacionalidad": "Alemania",
+        "equipo_debut": "Hoffenheim",
+        "equipo_actual": "Selección de fútbol de Alemania"
+    },
+    {
+        "nombre": "Marcelo Bielsa",
+        "nacionalidad": "Argentina",
+        "equipo_debut": "Newell’s Old Boys",
+        "equipo_actual": "Selección de fútbol de Uruguay"
+    }
+]
