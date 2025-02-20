@@ -15,8 +15,6 @@ description: JamStack, GithubPages - Pablo Arriola Pérez
     </ul>
 </main>
 {% include pageNav.html %}
-{% include footer.html %}
-
 <h1>Más jugadores</h1>
   {% for jugadores in site.data.jugadores %}
     <h2>{{ jugadores.nombre }}</h2>
@@ -24,3 +22,5 @@ description: JamStack, GithubPages - Pablo Arriola Pérez
     <p>{{ jugadores.edad }}</p>
     <p>{{ jugadores.equipo }}</p>
   {% endfor %}
+
+{% include footer.html %}
