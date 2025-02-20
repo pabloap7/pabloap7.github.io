@@ -11,11 +11,6 @@
         {% endif %}
     {% endif %}
     {% if paginator.next_page %}
-        <!-- {% if paginator.next_page == 1 %}
-            <a href="{{ "/" | relative_url }}" class="page-link" title="Next Page">\</a>
-            {% else %}
-            <a href="/page{{ paginator.next_page }}/" class="page-link" title="Next Page">&raquo;</a>
-        {% endif %} -->
         <a href="/page{{ paginator.next_page }}/" class="page-link" title="Next Page">&raquo;</a>
     {% endif %}
     {% if paginator.page == paginator.total_pages %}

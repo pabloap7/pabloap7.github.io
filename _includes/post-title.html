@@ -1,15 +1,5 @@
-<!-- 版本一 垃圾 -->
-<!-- <div class="wow fadeIn top" data-wow-duration="3.5s" >
-    <span class="wow fadeInUp" data-wow-delay="0.2s">{{ page.title }}</span>
-    <span class="wow fadeInUp" data-wow-delay="0.4s">{{ page.description }}</span>
-    <span class="wow fadeInUp" data-wow-delay="0.4s">{{ page.description }}</span>
-    <span class="wow fadeInUp" data-wow-delay="0.6s">作者&nbsp;&nbsp;|&nbsp;&nbsp;{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</span>
-</div> -->
-
-<!-- 版本二 可切换页面 -->
 {% if page.color.size==0 or page.color==nil %}
 <div class="post-top" style="background-color:#9A85FF;">
-  <!-- 页面宽度大于800px -->
   <div class="left-area">
     {% if page.next.url %}
       <a href="{{ page.next.url }}" class="btn bounceInLeft animated" onmouseover="showLeft();this.style.color='#9A85FF';" onmouseout="goneLeft();this.style.color='rgba(0,0,0,.2)';"><</a>
@@ -21,9 +11,6 @@
   </div>
   <div class="post-titlearea">
     <span class="wow fadeInUp" data-wow-delay="0.2s">{{ page.title }}</span>
-    <!-- <span class="wow fadeInUp" data-wow-delay="0.4s">{{ page.description }}</span> -->
-    <!-- <span class="wow fadeInUp" data-wow-delay="0.4s">{{ page.description }}</span> -->
-    <!-- <span class="wow fadeInUp" data-wow-delay="0.6s">作者&nbsp;&nbsp;|&nbsp;&nbsp;{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</span> -->
   </div>
   <div class="right-area">
     {% if page.previous.url %}
@@ -35,7 +22,6 @@
     {% endif %}
   </div>
 
-  <!-- 页面宽度小于800px -->
   <div class="post-changearea">
     {% if page.next.url %}
       <a href="{{ page.next.url }}" class="leftchange" style="border-right: 1px solid #9A85FF;border-bottom: 2px solid #9A85FF;"><span>上一篇<br><br>{{ page.next.title }}</span></a>
@@ -51,7 +37,6 @@
 </div>
 {% else %}
 <div class="post-top" style="background-color:{{ page.color }};">
-  <!-- 页面宽度大于800px -->
   <div class="left-area">
     {% if page.next.url %}
       <a href="{{ page.next.url }}" class="btn bounceInLeft animated" onmouseover="showLeft();this.style.color='{{ page.color }}';" onmouseout="goneLeft();this.style.color='rgba(0,0,0,.2)';"><</a>
@@ -63,9 +48,6 @@
   </div>
   <div class="post-titlearea">
     <span class="wow fadeInUp" data-wow-delay="0.2s">{{ page.title }}</span>
-    <!-- <span class="wow fadeInUp" data-wow-delay="0.4s">{{ page.description }}</span> -->
-    <!-- <span class="wow fadeInUp" data-wow-delay="0.4s">{{ page.description }}</span> -->
-    <!-- <span class="wow fadeInUp" data-wow-delay="0.6s">作者&nbsp;&nbsp;|&nbsp;&nbsp;{% if page.author %}{{ page.author }}{% else %}{{ site.author }}{% endif %}</span> -->
   </div>
   <div class="right-area">
     {% if page.previous.url %}
@@ -77,7 +59,6 @@
     {% endif %}
   </div>
 
-  <!-- 页面宽度小于800px -->
   <div class="post-changearea">
     {% if page.next.url %}
       <a href="{{ page.next.url }}" class="leftchange" style="border-right: 1px solid {{ page.color }};border-bottom: 2px solid {{ page.color }};"><span>上一篇<br><br>{{ page.next.title }}</span></a>
