@@ -58,5 +58,41 @@
         "nacionalidad": "Argentina",
         "equipo_debut": "Newell’s Old Boys",
         "equipo_actual": "Selección de fútbol de Uruguay"
+    },
+    {
+        "nombre": "Rafa Benítez",
+        "nacionalidad": "España",
+        "equipo_debut": "Real Madrid Castilla",
+        "equipo_actual": "N/A"
+    },
+    {
+        "nombre": "Maurizio Sarri",
+        "nacionalidad": "Italia",
+        "equipo_debut": "Tegoleto",
+        "equipo_actual": "N/A"
+    },
+    {
+        "nombre": "Erik ten Hag",
+        "nacionalidad": "Países Bajos",
+        "equipo_debut": "Go Ahead Eagles",
+        "equipo_actual": "N/A"
+    },
+    {
+        "nombre": "Gian Piero Gasperini",
+        "nacionalidad": "Italia",
+        "equipo_debut": "Crotone",
+        "equipo_actual": "Atalanta"
+    },
+    {
+        "nombre": "Massimiliano Allegri",
+        "nacionalidad": "Italia",
+        "equipo_debut": "Aglianese",
+        "equipo_actual": "N/A"
+    },
+    {
+        "nombre": "Brendan Rodgers",
+        "nacionalidad": "Irlanda del Norte",
+        "equipo_debut": "Watford",
+        "equipo_actual": "Celtic"
     }
 ]
