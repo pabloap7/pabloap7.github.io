@@ -49,7 +49,7 @@ highlighter: rouge
 pygmentsTheme: 'default'
 
 friends:
-  jekyll: 'https://www.jekyll.com.cn/'
+  Pablo: 'https://github.com/pabloap7'
 
 disqus: false
 disqus_url: '' 
