@@ -1,11 +1,5 @@
 [
     {
-        "nombre": "Vinicius Jr",
-        "posicion": "Delantero",
-        "nacionalidad": "Brasil",
-        "equipo": "Real Madrid"
-    },
-    {
         "nombre": "Lionel Messi",
         "posicion": "Delantero",
         "nacionalidad": "Argentina",
@@ -24,12 +18,6 @@
         "equipo": "Santos"
     },
     {
-        "nombre": "Kylian Mbappé",
-        "posicion": "Delantero",
-        "nacionalidad": "Francia",
-        "equipo": "Real Madrid"
-    },
-    {
         "nombre": "Robert Lewandowski",
         "posicion": "Delantero",
         "nacionalidad": "Polonia",
@@ -46,5 +34,77 @@
         "posicion": "Delantero",
         "nacionalidad": "Francia",
         "equipo": "Al-Ittihad"
+    },
+    {
+        "nombre": "Kevin De Bruyne",
+        "posicion": "Centrocampista",
+        "nacionalidad": "Bélgica",
+        "equipo": "Manchester City"
+    },
+    {
+        "nombre": "Luka Modric",
+        "posicion": "Centrocampista",
+        "nacionalidad": "Croacia",
+        "equipo": "Real Madrid"
+    },
+    {
+        "nombre": "N'Golo Kanté",
+        "posicion": "Centrocampista",
+        "nacionalidad": "Francia",
+        "equipo": "Chelsea"
+    },
+    {
+        "nombre": "Bruno Fernandes",
+        "posicion": "Centrocampista",
+        "nacionalidad": "Portugal",
+        "equipo": "Manchester United"
+    },
+    {
+        "nombre": "Joshua Kimmich",
+        "posicion": "Centrocampista",
+        "nacionalidad": "Alemania",
+        "equipo": "Bayern Munich"
+    },
+    {
+        "nombre": "Sergio Ramos",
+        "posicion": "Defensa",
+        "nacionalidad": "España",
+        "equipo": "Rayados"
+    },
+    {
+        "nombre": "Virgil van Dijk",
+        "posicion": "Defensa",
+        "nacionalidad": "Holanda",
+        "equipo": "Liverpool"
+    },
+    {
+        "nombre": "Ruben Dias",
+        "posicion": "Defensa",
+        "nacionalidad": "Portugal",
+        "equipo": "Manchester City"
+    },
+    {
+        "nombre": "Marquinhos",
+        "posicion": "Defensa",
+        "nacionalidad": "Brasil",
+        "equipo": "PSG"
+    },
+    {
+        "nombre": "Andrew Robertson",
+        "posicion": "Defensa",
+        "nacionalidad": "Escocia",
+        "equipo": "Liverpool"
+    },
+    {
+        "nombre": "Alisson Becker",
+        "posicion": "Portero",
+        "nacionalidad": "Brasil",
+        "equipo": "Liverpool"
+    },
+    {
+        "nombre": "Jan Oblak",
+        "posicion": "Portero",
+        "nacionalidad": "Eslovenia",
+        "equipo": "Atlético de Madrid"
     }
 ]

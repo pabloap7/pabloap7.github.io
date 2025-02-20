@@ -13,13 +13,14 @@ description: JamStack, GithubPages - Pablo Arriola Pérez
     <ul class="post-list">
       {% include posts_paginator.html %}
     </ul>
-  <h1>Más jugadores</h1>
+</main>
+{% include pageNav.html %}
+{% include footer.html %}
+
+<h1>Más jugadores</h1>
   {% for jugadores in site.data.jugadores %}
     <h2>{{ jugadores.nombre }}</h2>
     <p>{{ jugadores.posicion }}</p>
     <p>{{ jugadores.edad }}</p>
     <p>{{ jugadores.equipo }}</p>
   {% endfor %}
-</main>
-{% include pageNav.html %}
-{% include footer.html %}
