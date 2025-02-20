@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Vinicius Jr",
+        "posicion": "Delantero",
+        "nacionalidad": "Brasil",
+        "equipo": "Real Madrid"
+    },
+    {
+        "nombre": "Lionel Messi",
+        "posicion": "Delantero",
+        "nacionalidad": "Argentina",
+        "equipo": "Inter de Miami"
+    },
+    {
+        "nombre": "Cristiano Ronaldo",
+        "posicion": "Delantero",
+        "nacionalidad": "Portugal",
+        "equipo": "Al-Nassr"
+    },
+    {
+        "nombre": "Neymar Jr",
+        "posicion": "Delantero",
+        "nacionalidad": "Brasil",
+        "equipo": "Santos"
+    },
+    {
+        "nombre": "Kylian Mbappé",
+        "posicion": "Delantero",
+        "nacionalidad": "Francia",
+        "equipo": "Real Madrid"
+    },
+    {
+        "nombre": "Robert Lewandowski",
+        "posicion": "Delantero",
+        "nacionalidad": "Polonia",
+        "equipo": "Barcelona"
+    },
+    {
+        "nombre": "Mohamed Salah",
+        "posicion": "Delantero",
+        "nacionalidad": "Egipto",
+        "equipo": "Liverpool"
+    },
+    {
+        "nombre": "Karim Benzema",
+        "posicion": "Delantero",
+        "nacionalidad": "Francia",
+        "equipo": "Al-Ittihad"
+    }
+]
