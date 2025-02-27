@@ -9,6 +9,9 @@ nav:
   Línea de tiempo: '/timeline.html'
   About: '/about.html'
   Amigos: '/friendLink.html'
+  Examenindex: '/examen/index.html'
+  ExamenAlumnos: '/examen/alumnos.html'
+  ExamenNotas: '/examen/notas.html'
 
 author: true
 name: 'Pablo Arriola Pérez'
